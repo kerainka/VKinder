@@ -4,28 +4,28 @@ Chat Bot for VKontakte Group to help you find your significant other. Built with
 ## Project Structure
 
 ```
-|handler
-|- helper (folder for general utilities)
-|--- message_sender.py
+handler
+| helper (folder for general utilities)
+| | message_sender.py
 |
-|- question (this is a utility module for search_handler.py)
-|--- base_question.py
-|--- status_question.py
-|--- ... other questions ....
+| question (this is a utility module for search_handler.py)
+| | base_question.py
+| | status_question.py
+| | ... other questions ....
 |
-|- base_handler.py
-|- search_handler.py
-|- ... other handlers ...
+| base_handler.py
+| search_handler.py
+| ... other handlers ...
 
-|model
-|- base.py
-|- candidate.py
-|- photo.py
-|- user.py
-|- user_to_candidate.py
+model
+| base.py
+| candidate.py
+| photo.py
+| user.py
+| user_to_candidate.py
 
-|main.py
-|vk_bot.py
+main.py
+vk_bot.py
 ```
 
 ## Data Model
